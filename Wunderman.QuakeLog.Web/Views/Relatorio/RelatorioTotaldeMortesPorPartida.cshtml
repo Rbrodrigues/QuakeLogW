@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Wunderman.QuakeLog.Web.Models.RelatorioTotalMortesPorPartidaModel>
+@{
+    ViewBag.Title = "RelatorioTotaldeMortesPorPartida";
+}
+
+<div class="container">
+    <h2>Relatorio com numero de mortes por partida!</h2>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Partida</th>
+                <th>Total de Mortes</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Partida</td>
+                    <td>@item.TotalMortes</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

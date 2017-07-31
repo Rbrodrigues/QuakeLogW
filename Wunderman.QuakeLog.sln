@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{BD294E1E-B01B-490A-BEDC-B8E6A32BF012}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{9BE1225F-FF18-4424-8097-911F91761E4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wunderman.QuakeLog.Core", "Wunderman.QuakeLog.Core\Wunderman.QuakeLog.Core.csproj", "{A1D72F42-B69D-4AA1-9807-1731142E0B48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wunderman.QuakeLog.Web", "Wunderman.QuakeLog.Web\Wunderman.QuakeLog.Web.csproj", "{57EB8E46-5CAF-4F00-AFC3-7701B74CAAF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Parser", "Parser", "{767F1455-DF49-4B36-ABAB-0372B3C364A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wunderman.QuakeLog.Parser", "Wunderman.QuakeLog.Parser\Wunderman.QuakeLog.Parser.csproj", "{8C17AC32-CFDF-40C0-89C4-69B6C9D08887}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1D72F42-B69D-4AA1-9807-1731142E0B48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1D72F42-B69D-4AA1-9807-1731142E0B48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1D72F42-B69D-4AA1-9807-1731142E0B48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1D72F42-B69D-4AA1-9807-1731142E0B48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57EB8E46-5CAF-4F00-AFC3-7701B74CAAF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57EB8E46-5CAF-4F00-AFC3-7701B74CAAF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57EB8E46-5CAF-4F00-AFC3-7701B74CAAF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57EB8E46-5CAF-4F00-AFC3-7701B74CAAF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C17AC32-CFDF-40C0-89C4-69B6C9D08887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C17AC32-CFDF-40C0-89C4-69B6C9D08887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C17AC32-CFDF-40C0-89C4-69B6C9D08887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C17AC32-CFDF-40C0-89C4-69B6C9D08887}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A1D72F42-B69D-4AA1-9807-1731142E0B48} = {9BE1225F-FF18-4424-8097-911F91761E4E}
+		{57EB8E46-5CAF-4F00-AFC3-7701B74CAAF8} = {BD294E1E-B01B-490A-BEDC-B8E6A32BF012}
+		{8C17AC32-CFDF-40C0-89C4-69B6C9D08887} = {767F1455-DF49-4B36-ABAB-0372B3C364A8}
+	EndGlobalSection
+EndGlobal

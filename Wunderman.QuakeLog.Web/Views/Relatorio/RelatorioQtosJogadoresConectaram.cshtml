@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Wunderman.QuakeLog.Web.Models.RelatorioTotalJogadoresPorPartidaModel>
+@{
+    ViewBag.Title = "RelatorioQtosJogadoresConectaram";
+}
+
+<div class="container">
+    <h2>Relatorio com o numero de jogadores que se conectaram na partida!</h2>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Partida</th>
+                <th>Total de Jogadores Conectados</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Partida</td>
+                    <td>@item.TotalJogadoresConectados</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
