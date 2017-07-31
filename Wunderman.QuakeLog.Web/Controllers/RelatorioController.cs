@@ -28,8 +28,8 @@ namespace Wunderman.QuakeLog.Web.Controllers
         {
             try
             {
-                var relatorio = _relatorioService.TotalPartidas();
-                return View("RelatorioQtasPartidas.cshtml", relatorio);
+                ViewBag.QtasPartidas = _relatorioService.TotalPartidas();
+                return View("RelatorioQtasPartidas.cshtml");
             }
             catch (Exception)
             {
