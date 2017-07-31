@@ -16,5 +16,6 @@ namespace Wunderman.QuakeLog.Web.Ninject
         {
             return _ninjectKernel.Get<T>();
         }
+
     }
 }
